@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+"start": "node api-gateway/index.js",
+    "start-auth" : "node auth-service/index.js",
+    "start-inven" : "node inventory-service/index.js",
     "dev": "nodemon index.js"
-
   },
   "keywords": [],
   "author": "",
